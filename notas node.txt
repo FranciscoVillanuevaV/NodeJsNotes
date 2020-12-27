@@ -1,7 +1,13 @@
-qué es el path?
+como cambiar de user en git terminal
+cambiando en local 
+git config --local user.name "Full Name"
+git config --local user.email "email@address.com
+luego
+git config --local credential.helper ""
+y ya haces push
 
 empieza siempre con 
-nom init 
+npm init 
 para crear tu package.json
 
 package.json
