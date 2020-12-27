@@ -1,0 +1,56 @@
+qué es el path?
+
+empieza siempre con 
+nom init 
+para crear tu package.json
+
+package.json
+es un json, con las dependencias, si usas npm install
+actualizas todo, puedes borrar node_modules y volverlo a generar usando
+npm install
+
+express.js
+es un framework que te ayuda a simplificar lógica del server y 
+a mantener un estandar
+y lo instalas como dependencia de producción
+npm install --save express
+express trabaja con middleware un request pasa por una 
+serie de funciones
+
+instala body-parser 
+npm istall --save body-parser
+In order to get access to the post data we have to use body-parser. 
+Basically what the body-parser is which allows express to read the 
+body and then parse that into a Json object that we can understand.
+
+para correr 
+node app.js
+
+nodemon lo instalas como dev dependency
+y si no lo tienes, lo pones global pero no hay necesidad de 
+ponerlo global
+solo configuras el package.json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  }
+al configurar start, solo basta con
+npm start
+pa que corra con nodemon
+
+npm install -g elModule
+es para instalarlo global en tu maquina
+
+npm install --save elModule
+instala el modulo como una dependencia de producción
+
+npm install --save-dev elModule
+lo instala como dependencia en desarrollo
+
+folder node_modules
+lo puedes borrar pa hacer espacio, o bien no incluirlo en el repo
+
+
+
+
